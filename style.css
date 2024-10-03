@@ -1,0 +1,57 @@
+
+*{
+    font-family: "Lateef", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container{
+    text-align: center;
+}
+h1{
+    margin-top: 100px;
+    color: rgb(158, 9, 158);
+    font-family: "Caveat", cursive;
+    font-size: 4rem;
+}
+
+#do{
+    font-size: 1.5rem;    
+    font: bold;
+    border: 1px solid rgb(155, 147, 147);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+#addTask{
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgb(155, 147, 147);
+    margin-left: 5px;
+    font-size: 1.3rem;    
+    font: bold;
+    background-color: rgb(250, 204, 250);
+}
+#addTask i{
+    font-size: 1rem;
+}
+
+li{
+    font-size: 2rem;
+}
+.deleteTask{
+    position: absolute;
+    right: 0;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(211, 74, 74);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.deleteTask:hover, #addTask:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
